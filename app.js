@@ -23,7 +23,7 @@ app.post("/upload", upload.single('profile'), (req, res) => {
 
     res.json({
         success: 1,
-        profile_url: `http://localhost:4000/profile/${req.file.filename}`
+        profile_url: `ttps://upload-image-9rix.onrender.com/profile/${req.file.filename}`
     })
 })
 
